@@ -17,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
 
+        let conferenceSpeakers : [String] = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Wozniak"]
+        for speaker in conferenceSpeakers
+        {
+            println("Hello, my name is \(speaker)")
+        }
 
         return true
     }
