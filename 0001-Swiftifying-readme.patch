@@ -1,0 +1,28 @@
+From 2f16ee45b3567e094f51e074b6dafe9ac12b461a Mon Sep 17 00:00:00 2001
+From: Joe Burgess <joe@flatironschool.com>
+Date: Mon, 24 Nov 2014 07:25:44 -0500
+Subject: [PATCH] Swiftifying readme
+
+---
+ README.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/README.md b/README.md
+index 5e66092..a02072f 100644
+--- a/README.md
++++ b/README.md
+@@ -12,9 +12,9 @@ In this lab you'll be learning how to iterate through an array and output the re
+ You're helping out at the [Apple Worldwide Developers Conference](https://developer.apple.com/wwdc/) conference and need to print badges for the speakers. Each badge should say: "Hello, my name is _____."
+ 
+ 
+-The list of speakers for your conference has been finalized. Your conference speakers are: `@"Edsger", @"Ada", @"Charles", @"Alan", @"Grace", @"Linus" and @"Wozniak".` How you scored these luminaries is beyond me, but way to go! Now you'll want to get their badges printed. 
++The list of speakers for your conference has been finalized. Your conference speakers are: `"Edsger", "Ada", "Charles", "Alan", "Grace", "Linus" and "Wozniak".` How you scored these luminaries is beyond me, but way to go! Now you'll want to get their badges printed. 
+ 
+-  1. Store each `NSString` conference speaker inside of an `NSArray` called
++  1. Store each `String` conference speaker inside of an `Array` called
+ `conferenceSpeakers`.
+ 
+   2. Iterate over the `conferenceSpeakers` array using a `for-in` loop. Print
+-- 
+1.9.3 (Apple Git-50)
+
