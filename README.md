@@ -1,7 +1,4 @@
----
-  tags: arrays, iteration
-  languages: swift
----
+
 
 # Badges and Schedules
 
