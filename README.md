@@ -4,7 +4,7 @@
 
 ## Instructions
 
-In this lab you'll be learning how to iterate through an array and output the results in different ways. Your code will go in the "main.m" file under the "insert code here" comment.
+In this lab you'll be learning how to iterate through an array and output the results in different ways. Your code will go in the "AppDelegate.swift" file under the "insert code here" comment.
 
 You're helping out at the [Apple Worldwide Developers Conference](https://developer.apple.com/wwdc/) conference and need to print badges for the speakers. Each badge should say: "Hello, my name is _____."
 
