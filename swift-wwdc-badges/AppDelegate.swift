@@ -19,7 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         // Insert code here
-
+        // Create an NSArray object named conferenceSpeakers to store the list of speaker names as strings:
+        //"Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Wozniak"
+        
         let conferenceSpeakers: [String] = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Wozniak"]
         
         for speaker in conferenceSpeakers
